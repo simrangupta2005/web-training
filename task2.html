@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <P> abh hoga colour changee woohoo</P>
+    <button id="redbutton">RED</button>
+    <button id="bluebutton">BLUE</button>
+    <button id="greenbutton">GREEN</button>
+    <script>
+        const redButton = document.getElementById('redbutton');
+        const blueButton = document.getElementById('bluebutton');
+        const greenButton = document.getElementById('greenbutton');
+
+        redButton.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'red';
+        });
+
+        blueButton.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'blue';
+        });
+
+        greenButton.addEventListener('click', function() {
+            document.body.style.backgroundColor = 'green';
+        });
+    </script>
+</body>
+</html>
